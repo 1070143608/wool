@@ -7,14 +7,10 @@ import config
 def check_event(pic_type) -> callable:
     """判断当前是在什么事件"""
     print(event)
-    if pic_type == EventType.Common:
-        return event.get(EventType.Common)
-    elif pic_type == EventType.NewWarship:
-        return event.get(EventType.NewWarship)
-    elif pic_type == EventType.NextFight:
-        return event.get(EventType.NextFight)
+    if event.get(pic_type):
+        return event.get(pic_type)
     else:
-        None
+        return None
 
 
 def run():
