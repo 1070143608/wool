@@ -10,7 +10,6 @@ class EventType:
     Common = "common"
     NewBattleShips = "new_battleships"
     StageClear = "stage_clear"
-    
 
 
 def iface(_id):

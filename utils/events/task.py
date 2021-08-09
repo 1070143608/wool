@@ -15,8 +15,8 @@ class Task:
 class NewBattleShipsTask(Task):
 
     def __init__(self):
-        self.label1 = (1, 1)  # 新战舰看视频坐标点
-        self.label2 = (1, 1)  # 新战舰视频结束x坐标点
+        self.label1 = (522, 1539)  # 新战舰看视频坐标点
+        self.label2 = (975, 212)  # 新战舰视频结束x坐标点
         self.adv_wait = 50  # 新战舰视频等待事件
 
     def task_run(self):
